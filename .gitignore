@@ -5,13 +5,22 @@ openrouter.key
 zai.key
 !.env.example
 
-# Local server access / deploy secrets
-README_DEPLOY_SERVER.md
+bd/auth.php
+bd/api_artikotus.php
+auth.php
+
+rules.kotobot.txt
+AI.kotobot.rules.txt
+
+server_access.py
 server_access.local.*
+server_access.local.env
 deploy_hosting.local.cmd
 deploy_hosting.local.ps1
 *.credentials.local.*
 *.secrets.local.*
+ssh_agentic_probe.py
+_deploy_venv/
 
 __pycache__/
 *.py[cod]
